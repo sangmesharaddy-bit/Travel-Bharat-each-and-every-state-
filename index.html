@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover India's states, culture, food and unforgettable destinations with Travel Bharat.">
+  <title>Travel Bharat | Explore India State by State</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Travel Bharat home"><span class="brand-mark">✦</span> travel<span>bharat</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#explore">Explore India</a><a href="#experiences">Experiences</a><a href="#about">About</a>
+    </nav>
+    <a class="nav-cta" href="#explore">Start exploring <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">ONE COUNTRY · COUNTLESS STORIES</p>
+        <h1>Discover India.<br><em>One journey at a time.</em></h1>
+        <p class="hero-copy">From Himalayan horizons to tropical shores, find the places, flavours and traditions that make every corner of India unforgettable.</p>
+        <a class="primary-button" href="#explore">Explore destinations <span>→</span></a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span><span>28 STATES · 8 UNION TERRITORIES</span></div>
+      <div class="hero-index">01 / BHARAT</div>
+    </section>
+
+    <section class="intro section-wrap" id="about">
+      <div><p class="eyebrow">THE JOURNEY STARTS HERE</p><h2>A thousand cultures.<br><em>One incredible India.</em></h2></div>
+      <p class="intro-copy">Travel Bharat is your guide to exploring India's rich diversity. Discover iconic landmarks, hidden gems, local cuisine, living traditions and ideas for your next trip.</p>
+    </section>
+
+    <section class="explore section-wrap" id="explore">
+      <div class="section-heading">
+        <div><p class="eyebrow">FIND YOUR NEXT STORY</p><h2>Explore <em>India</em></h2></div>
+        <span class="count-pill">36 regions to discover</span>
+      </div>
+      <div class="search-row">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search a place, state or experience..." aria-label="Search destinations"></label>
+        <select id="regionFilter" aria-label="Filter by region">
+          <option value="all">All regions</option><option value="North">North India</option><option value="South">South India</option><option value="East">East India</option><option value="West">West India</option><option value="Central">Central India</option><option value="Northeast">Northeast India</option>
+        </select>
+        <select id="typeFilter" aria-label="Filter by experience">
+          <option value="all">All experiences</option><option value="Heritage">Heritage</option><option value="Nature">Nature</option><option value="Culture">Culture</option><option value="Beach">Beach</option>
+        </select>
+      </div>
+      <div class="destination-grid" id="destinationGrid" aria-live="polite"></div>
+      <p class="results-note" id="resultsNote"></p>
+    </section>
+
+    <section class="experience-band" id="experiences">
+      <div class="section-wrap experience-inner">
+        <div><p class="eyebrow light">MORE THAN A DESTINATION</p><h2>Travel for the places.<br><em>Stay for the stories.</em></h2></div>
+        <div class="experience-list">
+          <div><span>01</span><strong>Culture & traditions</strong><small>Festivals, art, crafts and local life</small></div>
+          <div><span>02</span><strong>Flavours of India</strong><small>Regional dishes and food trails</small></div>
+          <div><span>03</span><strong>Nature & adventure</strong><small>Mountains, forests, rivers and coastlines</small></div>
+        </div>
+      </div>
+    </section>
+    <section class="closing section-wrap">
+      <p class="eyebrow">YOUR INDIA. YOUR WAY.</p><h2>The map is only<br>the <em>beginning.</em></h2>
+      <a class="primary-button dark-button" href="#explore">Find your destination <span>→</span></a>
+    </section>
+  </main>
+  <footer><a class="brand" href="#">✦ travel<span>bharat</span></a><p>Made to celebrate the many stories of India.</p><small>© 2026 Travel Bharat · Educational project demo</small></footer>
+  <script src="app.js"></script>
+</body>
+</html>
